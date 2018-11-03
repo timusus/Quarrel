@@ -6,7 +6,11 @@ android:
     - platform-tools
     - build-tools-28.0.3
     - android-27
-sudo: required    
+sudo: required   
+licenses:
+- android-sdk-preview-license-.+
+- android-sdk-license-.+
+- google-gdk-license-.+ 
 jdk:
   - oraclejdk8
 before_install:
